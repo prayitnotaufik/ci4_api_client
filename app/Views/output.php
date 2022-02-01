@@ -17,7 +17,7 @@
         <a class="nav-link" href="/data/input">Input</a>
         <a class="nav-link" href="/data/output">Output</a>
         <a class="nav-link" href="/login/logout">Logout</a>
-        <a class="nav-link disabled" href="#">Welcome, <?= session()->get("userdata")['email_address']; ?></a>
+        <a class="nav-link disabled ms-auto" href="#">Welcome, <?= session()->get("userdata")['email_address']; ?></a>
     </nav>
     <div class="container mt-5">
         <div class="row d-flex justify-content-center">
