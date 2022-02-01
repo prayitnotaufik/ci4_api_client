@@ -31,7 +31,7 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Data::input');
+$routes->get('/', 'Login');
 $routes->get('/data/edit/(:segment)', 'Data::edit/$1');
 $routes->get('/data/update/(:segment)', 'Data::update/$1');
 $routes->get('/data/delete/(:segment)', 'Data::delete/$1');

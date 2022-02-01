@@ -13,7 +13,8 @@ class Data extends BaseController
     }
     public function index()
     {
-        return view('input');
+        // return redirect()->to('login/loginWithGoogle');
+        // return view('login');
     }
     public function input()
     {
